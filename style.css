@@ -1,0 +1,73 @@
+body {
+    background-color: #0b0f0b;
+    color: #d6c28a;
+    font-family: "Times New Roman", serif;
+    margin: 0;
+}
+
+/* Banner */
+.banner {
+    background-color: #1a2a1a;
+    text-align: center;
+    padding: 10px;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+/* Navigation */
+.nav {
+    background-color: #2a3a2a;
+    padding: 5px;
+    text-align: center;
+}
+
+.nav a {
+    color: #d6c28a;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Titles */
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Video blocks */
+.video-block {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #3a4a3a;
+}
+
+video {
+    width: 300px;
+    display: block;
+}
+
+/* History section */
+.history-block {
+    margin: 20px;
+}
+
+.history-block img {
+    width: 200px;
+}
+
+/* Float images like old Wikipedia */
+.left {
+    float: left;
+    margin-right: 10px;
+}
+
+.right {
+    float: right;
+    margin-left: 10px;
+}
+
+/* Text */
+p {
+    line-height: 1.5;
+}

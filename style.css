@@ -56,7 +56,7 @@ video {
     width: 200px;
 }
 
-/* Float images like old Wikipedia */
+/* Float images */
 .left {
     float: left;
     margin-right: 10px;
@@ -70,4 +70,44 @@ video {
 /* Text */
 p {
     line-height: 1.5;
+}
+
+/* OPENING PAGE */
+
+.enter-page {
+    background-color: black;
+    text-align: center;
+}
+
+.enter-container {
+    margin-top: 100px;
+}
+
+.enter-logo {
+    width: 300px;
+    opacity: 0.8;
+}
+
+.warning {
+    color: #aa0000;
+    font-size: 14px;
+}
+
+.enter-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #d6c28a;
+    color: #d6c28a;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.enter-button:hover {
+    background-color: #d6c28a;
+    color: black;
+}
+
+.small-text {
+    font-size: 10px;
+    color: gray;
 }

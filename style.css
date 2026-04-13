@@ -12,68 +12,64 @@ body {
     padding: 10px;
 }
 
-.banner img {
-    max-width: 100%;
-}
-
-/* Navigation */
+/* Nav */
 .nav {
     background-color: #2a3a2a;
-    padding: 5px;
+    padding: 8px;
     text-align: center;
 }
 
-.nav a {
-    color: #d6c28a;
-    text-decoration: none;
-    margin: 0 10px;
+/* Layout */
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
 }
 
-/* Titles */
-h1 {
-    text-align: center;
-    font-size: 24px;
+/* Main content (posts) */
+.main {
+    width: 70%;
 }
 
-/* Video blocks */
-.video-block {
-    margin: 20px;
+/* Sidebar */
+.sidebar {
+    width: 30%;
     padding: 10px;
-    border: 1px solid #3a4a3a;
+    border-left: 1px solid #3a4a3a;
+}
+
+/* Posts */
+.post {
+    border-bottom: 1px solid #3a4a3a;
+    padding: 15px 0;
+}
+
+.post h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.meta {
+    font-size: 12px;
+    color: gray;
 }
 
 video {
-    width: 300px;
-    display: block;
+    width: 100%;
+    margin-top: 10px;
 }
 
-/* History section */
-.history-block {
-    margin: 20px;
+/* Footer (THE CREEPY PART) */
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    padding: 20px;
+    border-top: 1px solid #3a4a3a;
+    margin-top: 20px;
 }
 
-.history-block img {
-    width: 200px;
-}
-
-/* Float images */
-.left {
-    float: left;
-    margin-right: 10px;
-}
-
-.right {
-    float: right;
-    margin-left: 10px;
-}
-
-/* Text */
-p {
-    line-height: 1.5;
-}
-
-/* OPENING PAGE */
-
+/* Opening page still works */
 .enter-page {
     background-color: black;
     text-align: center;
@@ -83,31 +79,10 @@ p {
     margin-top: 100px;
 }
 
-.enter-logo {
-    width: 300px;
-    opacity: 0.8;
-}
-
-.warning {
-    color: #aa0000;
-    font-size: 14px;
-}
-
 .enter-button {
     display: inline-block;
     padding: 10px 20px;
     border: 1px solid #d6c28a;
     color: #d6c28a;
     text-decoration: none;
-    margin-top: 10px;
-}
-
-.enter-button:hover {
-    background-color: #d6c28a;
-    color: black;
-}
-
-.small-text {
-    font-size: 10px;
-    color: gray;
 }
